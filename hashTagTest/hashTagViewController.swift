@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import ActiveLabel
 
 class hashTagViewController: UIViewController {
 
@@ -13,6 +15,8 @@ class hashTagViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(hashTag)
 
         // Do any additional setup after loading the view.
     }

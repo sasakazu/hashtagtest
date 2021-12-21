@@ -13,8 +13,6 @@ class tableViewController: UIViewController, UITableViewDelegate, UITableViewDat
   
     @IBOutlet weak var tableview: UITableView!
     
-    @IBOutlet weak var test: ActiveLabel!
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
